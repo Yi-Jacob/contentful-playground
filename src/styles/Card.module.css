@@ -1,0 +1,12 @@
+.cardWraper{
+	background-color: #e7e7e7;
+	border-radius: 13px;
+	padding: 10px;
+	color: #070707;
+}
+
+.cardWraper > img {
+	width: 100%;
+	object-fit: cover;
+	height: 275px;
+}

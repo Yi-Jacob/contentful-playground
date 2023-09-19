@@ -1,5 +1,10 @@
-import '@/styles/globals.css'
+import Wrapper from "@/layouts/wrapper";
+import "@/styles/globals.css";
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <Wrapper>
+      <Component {...pageProps} />
+    </Wrapper>
+  );
 }
